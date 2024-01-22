@@ -18,7 +18,6 @@ docker-registry:
   extraVolumeMounts:
     - mountPath: /auth
       name: auth
-  # TODO uncomment to enable auth
    extraEnvVars:
      - name: REGISTRY_AUTH
        value: "htpasswd"
