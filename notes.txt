@@ -1,0 +1,10 @@
+      dnsConfig:
+        nameservers:
+          - 10.43.0.10
+        options:
+          - name: ndots
+            value: '2'
+          - name: edns0
+        searches:
+          - yapiz.org
+      dnsPolicy: None
