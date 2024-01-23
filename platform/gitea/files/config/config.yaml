@@ -11,10 +11,10 @@ organizations:
       - name: Owners
         members:
           - renovate
-#repositories:
-#  - name: homelab
-#    owner: ops
-#    private: false
-#    migrate:
-#      source: https://github.com/sushyad/homelab
-#      mirror: false
+repositories:
+  - name: homelab
+    owner: ops
+    private: false
+    migrate:
+      source: https://github.com/sushyad/homelab
+      mirror: false
