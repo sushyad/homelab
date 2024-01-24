@@ -18,10 +18,10 @@ app-template:
       className: nginx
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
-        external-dns.alpha.kubernetes.io/target: homelab-tunnel.yapiz.org
+        external-dns.alpha.kubernetes.io/target: homelab-tunnel.yadapiz.com
         external-dns.alpha.kubernetes.io/cloudflare-proxied: 'true'
       hosts:
-        - host: &host draw.yapiz.org
+        - host: &host draw.yadapiz.com
           paths:
             - path: /
               pathType: Prefix

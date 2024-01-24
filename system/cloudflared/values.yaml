@@ -4,7 +4,7 @@ cloudflared:
   config:
     tunnel: homelab
     ingress:
-      - hostname: '*.yapiz.org'
+      - hostname: '*.yadapiz.com'
         service: https://ingress-nginx-controller.ingress-nginx
         originRequest:
           noTLSVerify: true

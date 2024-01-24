@@ -19,7 +19,7 @@ app-template:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host home.yapiz.org
+        - host: &host home.yadapiz.com
           paths:
             - path: /
               pathType: Prefix
@@ -61,76 +61,76 @@ app-template:
         services.yaml: |
           - Popular:
             - Matrix:
-                href: https://chat.yapiz.org
+                href: https://chat.yadapiz.com
                 description: Chat client
                 icon: element.svg
             - Jellyfin:
-                href: https://jellyfin.yapiz.org
+                href: https://jellyfin.yadapiz.com
                 description: Media system (movies, music, etc.)
                 icon: jellyfin.svg
             - Jellyseerr:
-                href: https://jellyseerr.yapiz.org
+                href: https://jellyseerr.yadapiz.com
                 description: Request media
                 icon: jellyseerr.svg
             - Paperless:
-                href: https://paperless.yapiz.org
+                href: https://paperless.yadapiz.com
                 description: Document management system
                 icon: paperless.svg
           - Management:
             - Transmission:
-                href: https://transmission.yapiz.org
+                href: https://transmission.yadapiz.com
                 description: Bittorrent client
                 icon: transmission.svg
             - Prowlarr:
-                href: https://prowlarr.yapiz.org
+                href: https://prowlarr.yadapiz.com
                 description: Indexer manager
                 icon: prowlarr.svg
             - Radarr:
-                href: https://radarr.yapiz.org
+                href: https://radarr.yadapiz.com
                 description: Movie manager
                 icon: radarr.svg
             - Sonarr:
-                href: https://sonarr.yapiz.org
+                href: https://sonarr.yadapiz.com
                 description: TV show manager
                 icon: sonarr.svg
             - Kanidm:
-                href: https://auth.yapiz.org
+                href: https://auth.yadapiz.com
                 description: Identity management
-                icon: https://auth.yapiz.org/pkg/img/logo-square.svg
+                icon: https://auth.yadapiz.com/pkg/img/logo-square.svg
           - Development:
             - Gitea:
-                href: https://git.yapiz.org
+                href: https://git.yadapiz.com
                 description: Git forge
                 icon: gitea.svg
             - Woodpecker:
-                href: https://ci.yapiz.org
+                href: https://ci.yadapiz.com
                 description: Continuous integration
                 icon: woodpecker-ci.svg
             - ArgoCD:
-                href: https://argocd.yapiz.org
+                href: https://argocd.yadapiz.com
                 description: Continuous deployment
                 icon: argocd.svg
             - Registry:
-                href: https://registry.yapiz.org
+                href: https://registry.yadapiz.com
                 description: Container registry
                 icon: docker.svg
             - Grafana:
-                href: https://grafana.yapiz.org
+                href: https://grafana.yadapiz.com
                 description: Observability dashboards
                 icon: grafana.svg
           - Utilities:
             - Excalidraw:
-                href: https://draw.yapiz.org
+                href: https://draw.yadapiz.com
                 description: Virtual whiteboard
                 icon: excalidraw.svg
             - Speedtest:
-                href: https://speedtest.yapiz.org
+                href: https://speedtest.yadapiz.com
                 description: Internal network speed test
                 icon: openspeedtest.png
         bookmarks.yaml: |
           - Homelab:
             - Documentation:
-              - href: https://homelab.yapiz.org
+              - href: https://homelab.yadapiz.com
                 icon: google-docs.svg
             - Public homelab repository:
               - href: https://github.com/khuedoan/homelab

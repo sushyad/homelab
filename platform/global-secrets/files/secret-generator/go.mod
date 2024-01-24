@@ -1,4 +1,4 @@
-module git.yapiz.org/khuedoan/homelab/platform/secret-generator
+module git.yadapiz.com/khuedoan/homelab/platform/secret-generator
 
 go 1.19
 

@@ -6,5 +6,5 @@
             value: '2'
           - name: edns0
         searches:
-          - yapiz.org
+          - yadapiz.com
       dnsPolicy: None

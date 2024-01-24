@@ -1,4 +1,4 @@
-module git.yapiz.org/sushyad/homelab/gitea/config
+module git.yadapiz.com/sushyad/homelab/gitea/config
 
 go 1.19
 

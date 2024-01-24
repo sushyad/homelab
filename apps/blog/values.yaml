@@ -4,7 +4,7 @@ app-template:
       containers:
         main:
           image:
-            repository: registry.yapiz.org/blog
+            repository: registry.yadapiz.com/blog
             tag: latest
   service:
     main:
@@ -18,10 +18,10 @@ app-template:
       className: nginx
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
-        external-dns.alpha.kubernetes.io/target: homelab-tunnel.yapiz.org
+        external-dns.alpha.kubernetes.io/target: homelab-tunnel.yadapiz.com
         external-dns.alpha.kubernetes.io/cloudflare-proxied: 'true'
       hosts:
-        - host: &host www.yapiz.org
+        - host: &host www.yadapiz.com
           paths:
             - path: /
               pathType: Prefix
