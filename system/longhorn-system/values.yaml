@@ -7,7 +7,5 @@ longhorn:
   ingress:
     enabled: true
     ingressClassName: nginx
-    hosts:
-      - host: longhorn.yadapiz.com
-        paths:
-          - path: /
+    host: longhorn.yadapiz.com
+    path: /
