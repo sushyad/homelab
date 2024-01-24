@@ -8,8 +8,10 @@ longhorn:
     main:
       ports:
         http:
-          port: 80
-          protocol: HTTP
+          enabled: false
+        https:
+          port: 443
+          protocol: HTTPS
   ingress:
     enabled: true
     className: nginx
@@ -20,6 +22,9 @@ longhorn:
         paths:
           - path: /
             pathType: Prefix
+            service:
+              name: main
+              port: https
     tls:
       - secretName: longhorn-tls-certificate
         hosts:
