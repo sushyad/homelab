@@ -31,6 +31,7 @@
             go
             gotestsum
             iproute2
+            iputils
             jq
             k9s
             kanidm
@@ -45,6 +46,7 @@
             pre-commit
             shellcheck
             terraform # TODO replace with OpenTofu, Terraform is no longer FOSS
+            watch
             yamllint
 
             (python3.withPackages (p: with p; [
